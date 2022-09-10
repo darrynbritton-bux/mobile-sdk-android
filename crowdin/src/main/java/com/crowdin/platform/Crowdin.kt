@@ -526,11 +526,11 @@ object Crowdin {
     private fun initViewTransformer() {
         viewTransformerManager = ViewTransformerManager()
         viewTransformerManager.registerTransformer(TextViewTransformer(dataManager as TextMetaDataProvider))
-        viewTransformerManager.registerTransformer(ToolbarTransformer(dataManager as TextMetaDataProvider))
+        /*viewTransformerManager.registerTransformer(ToolbarTransformer(dataManager as TextMetaDataProvider))
         viewTransformerManager.registerTransformer(SupportToolbarTransformer(dataManager as TextMetaDataProvider))
         viewTransformerManager.registerTransformer(BottomNavigationViewTransformer())
         viewTransformerManager.registerTransformer(NavigationViewTransformer())
-        viewTransformerManager.registerTransformer(SpinnerTransformer())
+        viewTransformerManager.registerTransformer(SpinnerTransformer())*/
     }
 
     private fun loadMapping() {
